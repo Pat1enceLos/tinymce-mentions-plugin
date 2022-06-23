@@ -1,0 +1,51 @@
+.oa-tinymce-mentions-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  border-radius: 4px;
+  width: 200px;
+  z-index: 9999 !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  overflow: auto;
+}
+.oa-tinymce-mentions-list {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  max-height: 230px;
+  box-sizing: border-box;
+}
+.oa-tinymce-mentions-item {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0;
+  padding: 9px 16px 9px 12px;
+  color: rgba(0, 0 ,0,.65);
+  font-size: 14px;
+  line-height: 22px;
+  transition: all linear .15s;
+}
+.oa-tinymce-mentions-item:hover {
+  background-color: rgba(0,0,0,.06);
+  color: #2f68b4;
+}
+._disabled {
+  background-color: unset;
+  color: rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+._disabled:hover {
+  background-color: unset;
+  color: rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+.oa-tinymce-mentions-item-active {
+  background-color: rgba(0,0,0,.06);
+  color: #2f68b4;
+}
+.remind-user {
+  color: #2f68b4;
+}
